@@ -1,0 +1,210 @@
+2024-06-25 15:03:15,034 INFO    StreamThr :13442 [internal.py:wandb_internal():86] W&B internal server running at pid: 13442, started at: 2024-06-25 15:03:15.033268
+2024-06-25 15:03:15,036 DEBUG   HandlerThread:13442 [handler.py:handle_request():146] handle_request: status
+2024-06-25 15:03:15,049 INFO    WriterThread:13442 [datastore.py:open_for_write():85] open: /aiffel/aiffel/AIFFEL-DLTON/SentenceClassification/Hail/DataAugmentation/wandb/run-20240625_150315-f94z6u9m/run-f94z6u9m.wandb
+2024-06-25 15:03:15,050 DEBUG   SenderThread:13442 [sender.py:send():380] send: header
+2024-06-25 15:03:15,060 DEBUG   SenderThread:13442 [sender.py:send():380] send: run
+2024-06-25 15:03:15,402 INFO    SenderThread:13442 [dir_watcher.py:__init__():211] watching files in: /aiffel/aiffel/AIFFEL-DLTON/SentenceClassification/Hail/DataAugmentation/wandb/run-20240625_150315-f94z6u9m/files
+2024-06-25 15:03:15,402 INFO    SenderThread:13442 [sender.py:_start_run_threads():1124] run started: f94z6u9m with start time 1719327795.032588
+2024-06-25 15:03:15,413 DEBUG   HandlerThread:13442 [handler.py:handle_request():146] handle_request: check_version
+2024-06-25 15:03:15,414 DEBUG   SenderThread:13442 [sender.py:send_request():407] send_request: check_version
+2024-06-25 15:03:15,496 DEBUG   HandlerThread:13442 [handler.py:handle_request():146] handle_request: run_start
+2024-06-25 15:03:15,497 DEBUG   HandlerThread:13442 [system_info.py:__init__():32] System info init
+2024-06-25 15:03:15,497 DEBUG   HandlerThread:13442 [system_info.py:__init__():47] System info init done
+2024-06-25 15:03:15,497 INFO    HandlerThread:13442 [system_monitor.py:start():194] Starting system monitor
+2024-06-25 15:03:15,497 INFO    SystemMonitor:13442 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-06-25 15:03:15,498 INFO    HandlerThread:13442 [system_monitor.py:probe():214] Collecting system info
+2024-06-25 15:03:15,498 INFO    SystemMonitor:13442 [interfaces.py:start():190] Started cpu monitoring
+2024-06-25 15:03:15,498 INFO    SystemMonitor:13442 [interfaces.py:start():190] Started disk monitoring
+2024-06-25 15:03:15,499 INFO    SystemMonitor:13442 [interfaces.py:start():190] Started gpu monitoring
+2024-06-25 15:03:15,500 INFO    SystemMonitor:13442 [interfaces.py:start():190] Started memory monitoring
+2024-06-25 15:03:15,501 INFO    SystemMonitor:13442 [interfaces.py:start():190] Started network monitoring
+2024-06-25 15:03:15,508 DEBUG   HandlerThread:13442 [system_info.py:probe():196] Probing system
+2024-06-25 15:03:15,509 DEBUG   HandlerThread:13442 [system_info.py:_probe_git():181] Probing git
+2024-06-25 15:03:15,522 DEBUG   HandlerThread:13442 [system_info.py:_probe_git():189] Probing git done
+2024-06-25 15:03:15,523 DEBUG   HandlerThread:13442 [system_info.py:probe():244] Probing system done
+2024-06-25 15:03:15,523 DEBUG   HandlerThread:13442 [system_monitor.py:probe():223] {'os': 'Linux-5.15.154+-x86_64-with-glibc2.31', 'python': '3.9.7', 'heartbeatAt': '2024-06-25T15:03:15.508880', 'startedAt': '2024-06-25T15:03:15.024430', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'aiffel/AIFFEL-DLTON/SentenceClassification/Hail/DataAugmentation/wan.ipynb', 'codePathLocal': None, 'root': '/aiffel/aiffel/AIFFEL-DLTON/SentenceClassification', 'git': {'remote': 'https://github.com/rohhail/SentenceClassification.git', 'commit': '953f2506fb80d396b5925136e26cc9b1c1431670'}, 'email': None, 'host': 'wgeozlpz5j0dd3z1gzplegbwv-695c499b6c-wl26z', 'username': 'root', 'executable': '/opt/conda/bin/python', 'cpu_count': 2, 'cpu_count_logical': 4, 'cpu_freq': {'current': 2199.998, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 2199.998, 'min': 0.0, 'max': 0.0}, {'current': 2199.998, 'min': 0.0, 'max': 0.0}, {'current': 2199.998, 'min': 0.0, 'max': 0.0}, {'current': 2199.998, 'min': 0.0, 'max': 0.0}], 'disk': {'/': {'total': 121.81595230102539, 'used': 39.67449188232422}}, 'gpu': 'Tesla T4', 'gpu_count': 1, 'gpu_devices': [{'name': 'Tesla T4', 'memory_total': 15843721216}], 'memory': {'total': 17.57632827758789}}
+2024-06-25 15:03:15,523 INFO    HandlerThread:13442 [system_monitor.py:probe():224] Finished collecting system info
+2024-06-25 15:03:15,523 INFO    HandlerThread:13442 [system_monitor.py:probe():227] Publishing system info
+2024-06-25 15:03:15,523 DEBUG   HandlerThread:13442 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2024-06-25 15:03:15,524 DEBUG   HandlerThread:13442 [system_info.py:_save_pip():68] Saving pip packages done
+2024-06-25 15:03:15,524 DEBUG   HandlerThread:13442 [system_info.py:_save_conda():75] Saving list of conda packages installed into the current environment
+2024-06-25 15:03:16,096 DEBUG   HandlerThread:13442 [system_info.py:_save_conda():87] Saving conda packages done
+2024-06-25 15:03:16,097 INFO    HandlerThread:13442 [system_monitor.py:probe():229] Finished publishing system info
+2024-06-25 15:03:16,099 DEBUG   SenderThread:13442 [sender.py:send():380] send: files
+2024-06-25 15:03:16,099 INFO    SenderThread:13442 [sender.py:_save_file():1380] saving file wandb-metadata.json with policy now
+2024-06-25 15:03:16,115 DEBUG   SenderThread:13442 [sender.py:send():380] send: telemetry
+2024-06-25 15:03:16,115 DEBUG   HandlerThread:13442 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-25 15:03:16,115 DEBUG   SenderThread:13442 [sender.py:send_request():407] send_request: stop_status
+2024-06-25 15:03:16,119 DEBUG   HandlerThread:13442 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-25 15:03:16,120 DEBUG   HandlerThread:13442 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-25 15:03:16,120 DEBUG   HandlerThread:13442 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-25 15:03:16,120 DEBUG   HandlerThread:13442 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-25 15:03:16,121 DEBUG   HandlerThread:13442 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-25 15:03:16,121 DEBUG   HandlerThread:13442 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-25 15:03:16,121 DEBUG   HandlerThread:13442 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-25 15:03:16,122 DEBUG   HandlerThread:13442 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-25 15:03:16,122 DEBUG   HandlerThread:13442 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-25 15:03:16,280 DEBUG   SenderThread:13442 [sender.py:send():380] send: history
+2024-06-25 15:03:16,281 DEBUG   SenderThread:13442 [sender.py:send_request():407] send_request: summary_record
+2024-06-25 15:03:16,281 INFO    SenderThread:13442 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-25 15:03:16,282 DEBUG   SenderThread:13442 [sender.py:send():380] send: history
+2024-06-25 15:03:16,282 DEBUG   SenderThread:13442 [sender.py:send_request():407] send_request: summary_record
+2024-06-25 15:03:16,282 INFO    SenderThread:13442 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-25 15:03:16,283 DEBUG   SenderThread:13442 [sender.py:send():380] send: history
+2024-06-25 15:03:16,283 DEBUG   SenderThread:13442 [sender.py:send_request():407] send_request: summary_record
+2024-06-25 15:03:16,298 INFO    SenderThread:13442 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-25 15:03:16,298 DEBUG   SenderThread:13442 [sender.py:send():380] send: history
+2024-06-25 15:03:16,299 DEBUG   SenderThread:13442 [sender.py:send_request():407] send_request: summary_record
+2024-06-25 15:03:16,313 INFO    SenderThread:13442 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-25 15:03:16,313 DEBUG   SenderThread:13442 [sender.py:send():380] send: history
+2024-06-25 15:03:16,313 DEBUG   SenderThread:13442 [sender.py:send_request():407] send_request: summary_record
+2024-06-25 15:03:16,324 INFO    SenderThread:13442 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-25 15:03:16,324 DEBUG   SenderThread:13442 [sender.py:send():380] send: history
+2024-06-25 15:03:16,324 DEBUG   SenderThread:13442 [sender.py:send_request():407] send_request: summary_record
+2024-06-25 15:03:16,325 INFO    SenderThread:13442 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-25 15:03:16,325 DEBUG   SenderThread:13442 [sender.py:send():380] send: history
+2024-06-25 15:03:16,325 DEBUG   SenderThread:13442 [sender.py:send_request():407] send_request: summary_record
+2024-06-25 15:03:16,325 INFO    SenderThread:13442 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-25 15:03:16,326 DEBUG   SenderThread:13442 [sender.py:send():380] send: history
+2024-06-25 15:03:16,326 DEBUG   SenderThread:13442 [sender.py:send_request():407] send_request: summary_record
+2024-06-25 15:03:16,326 INFO    SenderThread:13442 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-25 15:03:16,326 DEBUG   SenderThread:13442 [sender.py:send():380] send: telemetry
+2024-06-25 15:03:16,326 DEBUG   SenderThread:13442 [sender.py:send():380] send: exit
+2024-06-25 15:03:16,326 INFO    SenderThread:13442 [sender.py:send_exit():585] handling exit code: 0
+2024-06-25 15:03:16,326 INFO    SenderThread:13442 [sender.py:send_exit():587] handling runtime: 0
+2024-06-25 15:03:16,327 INFO    SenderThread:13442 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-25 15:03:16,327 INFO    SenderThread:13442 [sender.py:send_exit():593] send defer
+2024-06-25 15:03:16,327 DEBUG   HandlerThread:13442 [handler.py:handle_request():146] handle_request: defer
+2024-06-25 15:03:16,327 INFO    HandlerThread:13442 [handler.py:handle_request_defer():172] handle defer: 0
+2024-06-25 15:03:16,327 DEBUG   SenderThread:13442 [sender.py:send_request():407] send_request: defer
+2024-06-25 15:03:16,328 INFO    SenderThread:13442 [sender.py:send_request_defer():609] handle sender defer: 0
+2024-06-25 15:03:16,328 INFO    SenderThread:13442 [sender.py:transition_state():613] send defer: 1
+2024-06-25 15:03:16,328 DEBUG   HandlerThread:13442 [handler.py:handle_request():146] handle_request: defer
+2024-06-25 15:03:16,328 INFO    HandlerThread:13442 [handler.py:handle_request_defer():172] handle defer: 1
+2024-06-25 15:03:16,328 DEBUG   SenderThread:13442 [sender.py:send_request():407] send_request: defer
+2024-06-25 15:03:16,328 INFO    SenderThread:13442 [sender.py:send_request_defer():609] handle sender defer: 1
+2024-06-25 15:03:16,328 INFO    SenderThread:13442 [sender.py:transition_state():613] send defer: 2
+2024-06-25 15:03:16,328 DEBUG   HandlerThread:13442 [handler.py:handle_request():146] handle_request: defer
+2024-06-25 15:03:16,328 INFO    HandlerThread:13442 [handler.py:handle_request_defer():172] handle defer: 2
+2024-06-25 15:03:16,328 INFO    HandlerThread:13442 [system_monitor.py:finish():203] Stopping system monitor
+2024-06-25 15:03:16,329 INFO    HandlerThread:13442 [interfaces.py:finish():202] Joined cpu monitor
+2024-06-25 15:03:16,329 INFO    HandlerThread:13442 [interfaces.py:finish():202] Joined disk monitor
+2024-06-25 15:03:16,329 DEBUG   SystemMonitor:13442 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-06-25 15:03:16,329 DEBUG   SystemMonitor:13442 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-06-25 15:03:16,329 DEBUG   SystemMonitor:13442 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-06-25 15:03:16,338 INFO    HandlerThread:13442 [interfaces.py:finish():202] Joined gpu monitor
+2024-06-25 15:03:16,338 INFO    HandlerThread:13442 [interfaces.py:finish():202] Joined memory monitor
+2024-06-25 15:03:16,338 INFO    HandlerThread:13442 [interfaces.py:finish():202] Joined network monitor
+2024-06-25 15:03:16,339 DEBUG   SenderThread:13442 [sender.py:send_request():407] send_request: defer
+2024-06-25 15:03:16,339 INFO    SenderThread:13442 [sender.py:send_request_defer():609] handle sender defer: 2
+2024-06-25 15:03:16,339 INFO    SenderThread:13442 [sender.py:transition_state():613] send defer: 3
+2024-06-25 15:03:16,339 DEBUG   SenderThread:13442 [sender.py:send():380] send: stats
+2024-06-25 15:03:16,339 DEBUG   HandlerThread:13442 [handler.py:handle_request():146] handle_request: defer
+2024-06-25 15:03:16,339 INFO    HandlerThread:13442 [handler.py:handle_request_defer():172] handle defer: 3
+2024-06-25 15:03:16,339 DEBUG   SenderThread:13442 [sender.py:send_request():407] send_request: defer
+2024-06-25 15:03:16,339 INFO    SenderThread:13442 [sender.py:send_request_defer():609] handle sender defer: 3
+2024-06-25 15:03:16,339 INFO    SenderThread:13442 [sender.py:transition_state():613] send defer: 4
+2024-06-25 15:03:16,340 DEBUG   HandlerThread:13442 [handler.py:handle_request():146] handle_request: defer
+2024-06-25 15:03:16,340 INFO    HandlerThread:13442 [handler.py:handle_request_defer():172] handle defer: 4
+2024-06-25 15:03:16,340 DEBUG   SenderThread:13442 [sender.py:send_request():407] send_request: defer
+2024-06-25 15:03:16,340 INFO    SenderThread:13442 [sender.py:send_request_defer():609] handle sender defer: 4
+2024-06-25 15:03:16,340 INFO    SenderThread:13442 [sender.py:transition_state():613] send defer: 5
+2024-06-25 15:03:16,340 DEBUG   HandlerThread:13442 [handler.py:handle_request():146] handle_request: defer
+2024-06-25 15:03:16,340 INFO    HandlerThread:13442 [handler.py:handle_request_defer():172] handle defer: 5
+2024-06-25 15:03:16,340 DEBUG   SenderThread:13442 [sender.py:send():380] send: summary
+2024-06-25 15:03:16,341 INFO    SenderThread:13442 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-06-25 15:03:16,341 DEBUG   SenderThread:13442 [sender.py:send_request():407] send_request: defer
+2024-06-25 15:03:16,341 INFO    SenderThread:13442 [sender.py:send_request_defer():609] handle sender defer: 5
+2024-06-25 15:03:16,341 INFO    SenderThread:13442 [sender.py:transition_state():613] send defer: 6
+2024-06-25 15:03:16,341 DEBUG   HandlerThread:13442 [handler.py:handle_request():146] handle_request: defer
+2024-06-25 15:03:16,341 INFO    HandlerThread:13442 [handler.py:handle_request_defer():172] handle defer: 6
+2024-06-25 15:03:16,342 DEBUG   SenderThread:13442 [sender.py:send_request():407] send_request: defer
+2024-06-25 15:03:16,342 INFO    SenderThread:13442 [sender.py:send_request_defer():609] handle sender defer: 6
+2024-06-25 15:03:16,347 DEBUG   HandlerThread:13442 [handler.py:handle_request():146] handle_request: status_report
+2024-06-25 15:03:16,382 INFO    wandb-upload_0:13442 [upload_job.py:push():131] Uploaded file /tmp/tmpjqu1d4ejwandb/8d2k3p7s-wandb-metadata.json
+2024-06-25 15:03:16,404 INFO    Thread-25 :13442 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL-DLTON/SentenceClassification/Hail/DataAugmentation/wandb/run-20240625_150315-f94z6u9m/files/conda-environment.yaml
+2024-06-25 15:03:16,404 INFO    Thread-25 :13442 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL-DLTON/SentenceClassification/Hail/DataAugmentation/wandb/run-20240625_150315-f94z6u9m/files/wandb-metadata.json
+2024-06-25 15:03:16,404 INFO    Thread-25 :13442 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL-DLTON/SentenceClassification/Hail/DataAugmentation/wandb/run-20240625_150315-f94z6u9m/files/wandb-summary.json
+2024-06-25 15:03:16,404 INFO    Thread-25 :13442 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL-DLTON/SentenceClassification/Hail/DataAugmentation/wandb/run-20240625_150315-f94z6u9m/files/requirements.txt
+2024-06-25 15:03:16,414 INFO    SenderThread:13442 [sender.py:transition_state():613] send defer: 7
+2024-06-25 15:03:16,414 DEBUG   HandlerThread:13442 [handler.py:handle_request():146] handle_request: defer
+2024-06-25 15:03:16,414 INFO    HandlerThread:13442 [handler.py:handle_request_defer():172] handle defer: 7
+2024-06-25 15:03:16,414 DEBUG   SenderThread:13442 [sender.py:send_request():407] send_request: defer
+2024-06-25 15:03:16,414 INFO    SenderThread:13442 [sender.py:send_request_defer():609] handle sender defer: 7
+2024-06-25 15:03:16,415 INFO    SenderThread:13442 [sender.py:transition_state():613] send defer: 8
+2024-06-25 15:03:16,415 DEBUG   HandlerThread:13442 [handler.py:handle_request():146] handle_request: defer
+2024-06-25 15:03:16,415 INFO    HandlerThread:13442 [handler.py:handle_request_defer():172] handle defer: 8
+2024-06-25 15:03:16,415 DEBUG   SenderThread:13442 [sender.py:send_request():407] send_request: defer
+2024-06-25 15:03:16,415 INFO    SenderThread:13442 [sender.py:send_request_defer():609] handle sender defer: 8
+2024-06-25 15:03:16,415 INFO    SenderThread:13442 [job_builder.py:build():298] Attempting to build job artifact
+2024-06-25 15:03:16,415 INFO    SenderThread:13442 [job_builder.py:_get_source_type():428] is repo sourced job
+2024-06-25 15:03:16,415 INFO    SenderThread:13442 [job_builder.py:_get_program_relpath():446] run is notebook based run
+2024-06-25 15:03:16,417 INFO    SenderThread:13442 [job_builder.py:build():404] adding wandb-job metadata file
+2024-06-25 15:03:16,442 INFO    SenderThread:13442 [sender.py:transition_state():613] send defer: 9
+2024-06-25 15:03:16,442 DEBUG   HandlerThread:13442 [handler.py:handle_request():146] handle_request: defer
+2024-06-25 15:03:16,442 INFO    HandlerThread:13442 [handler.py:handle_request_defer():172] handle defer: 9
+2024-06-25 15:03:16,443 DEBUG   SenderThread:13442 [sender.py:send():380] send: artifact
+2024-06-25 15:03:17,119 DEBUG   HandlerThread:13442 [handler.py:handle_request():146] handle_request: poll_exit
+2024-06-25 15:03:17,321 INFO    wandb-upload_0:13442 [upload_job.py:push():89] Uploaded file /aiffel/.local/share/wandb/artifacts/staging/tmphrskzoai
+2024-06-25 15:03:17,403 INFO    Thread-25 :13442 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aiffel/aiffel/AIFFEL-DLTON/SentenceClassification/Hail/DataAugmentation/wandb/run-20240625_150315-f94z6u9m/files/config.yaml
+2024-06-25 15:03:18,367 INFO    wandb-upload_1:13442 [upload_job.py:push():89] Uploaded file /aiffel/.local/share/wandb/artifacts/staging/tmpuercvvkq
+2024-06-25 15:03:20,789 INFO    SenderThread:13442 [sender.py:send_artifact():1458] sent artifact job-https___github.com_rohhail_SentenceClassification.git_aiffe..EL-DLTON_SentenceClassification_Hail_DataAugmentation_wan.ipynb - {'id': 'QXJ0aWZhY3Q6OTI1NjIyOTMy', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjIzMjQ4OTg5OA==', 'latestArtifact': None}}
+2024-06-25 15:03:20,789 DEBUG   SenderThread:13442 [sender.py:send_request():407] send_request: defer
+2024-06-25 15:03:20,808 INFO    SenderThread:13442 [sender.py:send_request_defer():609] handle sender defer: 9
+2024-06-25 15:03:20,808 INFO    SenderThread:13442 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-06-25 15:03:21,405 INFO    SenderThread:13442 [dir_watcher.py:finish():388] scan: /aiffel/aiffel/AIFFEL-DLTON/SentenceClassification/Hail/DataAugmentation/wandb/run-20240625_150315-f94z6u9m/files
+2024-06-25 15:03:21,405 INFO    SenderThread:13442 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL-DLTON/SentenceClassification/Hail/DataAugmentation/wandb/run-20240625_150315-f94z6u9m/files/conda-environment.yaml conda-environment.yaml
+2024-06-25 15:03:21,405 INFO    SenderThread:13442 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL-DLTON/SentenceClassification/Hail/DataAugmentation/wandb/run-20240625_150315-f94z6u9m/files/config.yaml config.yaml
+2024-06-25 15:03:21,405 INFO    SenderThread:13442 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL-DLTON/SentenceClassification/Hail/DataAugmentation/wandb/run-20240625_150315-f94z6u9m/files/wandb-summary.json wandb-summary.json
+2024-06-25 15:03:21,409 INFO    SenderThread:13442 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL-DLTON/SentenceClassification/Hail/DataAugmentation/wandb/run-20240625_150315-f94z6u9m/files/requirements.txt requirements.txt
+2024-06-25 15:03:21,410 INFO    SenderThread:13442 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL-DLTON/SentenceClassification/Hail/DataAugmentation/wandb/run-20240625_150315-f94z6u9m/files/wandb-metadata.json wandb-metadata.json
+2024-06-25 15:03:21,410 INFO    SenderThread:13442 [sender.py:transition_state():613] send defer: 10
+2024-06-25 15:03:21,410 DEBUG   SenderThread:13442 [sender.py:send_request():407] send_request: poll_exit
+2024-06-25 15:03:21,410 DEBUG   HandlerThread:13442 [handler.py:handle_request():146] handle_request: defer
+2024-06-25 15:03:21,410 INFO    HandlerThread:13442 [handler.py:handle_request_defer():172] handle defer: 10
+2024-06-25 15:03:21,413 DEBUG   SenderThread:13442 [sender.py:send_request():407] send_request: defer
+2024-06-25 15:03:21,413 INFO    SenderThread:13442 [sender.py:send_request_defer():609] handle sender defer: 10
+2024-06-25 15:03:21,414 INFO    SenderThread:13442 [file_pusher.py:finish():175] shutting down file pusher
+2024-06-25 15:03:21,614 INFO    wandb-upload_0:13442 [upload_job.py:push():131] Uploaded file /aiffel/aiffel/AIFFEL-DLTON/SentenceClassification/Hail/DataAugmentation/wandb/run-20240625_150315-f94z6u9m/files/config.yaml
+2024-06-25 15:03:21,640 INFO    wandb-upload_2:13442 [upload_job.py:push():131] Uploaded file /aiffel/aiffel/AIFFEL-DLTON/SentenceClassification/Hail/DataAugmentation/wandb/run-20240625_150315-f94z6u9m/files/wandb-summary.json
+2024-06-25 15:03:21,726 INFO    wandb-upload_1:13442 [upload_job.py:push():131] Uploaded file /aiffel/aiffel/AIFFEL-DLTON/SentenceClassification/Hail/DataAugmentation/wandb/run-20240625_150315-f94z6u9m/files/requirements.txt
+2024-06-25 15:03:21,926 INFO    Thread-24 :13442 [sender.py:transition_state():613] send defer: 11
+2024-06-25 15:03:21,927 DEBUG   HandlerThread:13442 [handler.py:handle_request():146] handle_request: defer
+2024-06-25 15:03:21,927 INFO    HandlerThread:13442 [handler.py:handle_request_defer():172] handle defer: 11
+2024-06-25 15:03:21,927 DEBUG   SenderThread:13442 [sender.py:send_request():407] send_request: defer
+2024-06-25 15:03:21,927 INFO    SenderThread:13442 [sender.py:send_request_defer():609] handle sender defer: 11
+2024-06-25 15:03:21,927 INFO    SenderThread:13442 [file_pusher.py:join():181] waiting for file pusher
+2024-06-25 15:03:21,927 INFO    SenderThread:13442 [sender.py:transition_state():613] send defer: 12
+2024-06-25 15:03:21,928 DEBUG   HandlerThread:13442 [handler.py:handle_request():146] handle_request: defer
+2024-06-25 15:03:21,928 INFO    HandlerThread:13442 [handler.py:handle_request_defer():172] handle defer: 12
+2024-06-25 15:03:21,928 DEBUG   SenderThread:13442 [sender.py:send_request():407] send_request: defer
+2024-06-25 15:03:21,928 INFO    SenderThread:13442 [sender.py:send_request_defer():609] handle sender defer: 12
+2024-06-25 15:03:21,928 INFO    SenderThread:13442 [file_stream.py:finish():595] file stream finish called
+2024-06-25 15:03:22,004 INFO    SenderThread:13442 [file_stream.py:finish():599] file stream finish is done
+2024-06-25 15:03:22,004 INFO    SenderThread:13442 [sender.py:transition_state():613] send defer: 13
+2024-06-25 15:03:22,004 DEBUG   HandlerThread:13442 [handler.py:handle_request():146] handle_request: defer
+2024-06-25 15:03:22,005 INFO    HandlerThread:13442 [handler.py:handle_request_defer():172] handle defer: 13
+2024-06-25 15:03:22,005 DEBUG   SenderThread:13442 [sender.py:send_request():407] send_request: defer
+2024-06-25 15:03:22,005 INFO    SenderThread:13442 [sender.py:send_request_defer():609] handle sender defer: 13
+2024-06-25 15:03:22,005 INFO    SenderThread:13442 [sender.py:transition_state():613] send defer: 14
+2024-06-25 15:03:22,005 DEBUG   HandlerThread:13442 [handler.py:handle_request():146] handle_request: defer
+2024-06-25 15:03:22,005 INFO    HandlerThread:13442 [handler.py:handle_request_defer():172] handle defer: 14
+2024-06-25 15:03:22,006 DEBUG   SenderThread:13442 [sender.py:send():380] send: final
+2024-06-25 15:03:22,006 DEBUG   SenderThread:13442 [sender.py:send():380] send: footer
+2024-06-25 15:03:22,006 DEBUG   SenderThread:13442 [sender.py:send_request():407] send_request: defer
+2024-06-25 15:03:22,006 INFO    SenderThread:13442 [sender.py:send_request_defer():609] handle sender defer: 14
+2024-06-25 15:03:22,007 DEBUG   HandlerThread:13442 [handler.py:handle_request():146] handle_request: poll_exit
+2024-06-25 15:03:22,007 DEBUG   SenderThread:13442 [sender.py:send_request():407] send_request: poll_exit
+2024-06-25 15:03:22,014 DEBUG   HandlerThread:13442 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-25 15:03:22,015 DEBUG   HandlerThread:13442 [handler.py:handle_request():146] handle_request: server_info
+2024-06-25 15:03:22,016 DEBUG   SenderThread:13442 [sender.py:send_request():407] send_request: server_info
+2024-06-25 15:03:22,056 DEBUG   HandlerThread:13442 [handler.py:handle_request():146] handle_request: get_summary
+2024-06-25 15:03:22,056 DEBUG   HandlerThread:13442 [handler.py:handle_request():146] handle_request: sampled_history
+2024-06-25 15:03:22,057 DEBUG   HandlerThread:13442 [handler.py:handle_request():146] handle_request: job_info
+2024-06-25 15:03:22,067 DEBUG   SenderThread:13442 [sender.py:send_request():407] send_request: job_info
+2024-06-25 15:03:22,099 DEBUG   HandlerThread:13442 [handler.py:handle_request():146] handle_request: shutdown
+2024-06-25 15:03:22,099 INFO    HandlerThread:13442 [handler.py:finish():866] shutting down handler
+2024-06-25 15:03:23,057 INFO    WriterThread:13442 [datastore.py:close():294] close: /aiffel/aiffel/AIFFEL-DLTON/SentenceClassification/Hail/DataAugmentation/wandb/run-20240625_150315-f94z6u9m/run-f94z6u9m.wandb
+2024-06-25 15:03:23,068 INFO    SenderThread:13442 [sender.py:finish():1536] shutting down sender
+2024-06-25 15:03:23,068 INFO    SenderThread:13442 [file_pusher.py:finish():175] shutting down file pusher
+2024-06-25 15:03:23,068 INFO    SenderThread:13442 [file_pusher.py:join():181] waiting for file pusher
